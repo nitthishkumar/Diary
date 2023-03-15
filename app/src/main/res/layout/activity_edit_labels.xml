@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditLabelsActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/app_yellow"
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbarEditLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/clCreateLabel"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnCancelLabelEL2"
+            android:layout_width="24dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            app:tint="@color/mi_gray" />
+
+        <ImageView
+            android:id="@+id/btnAddLabelEL"
+            android:layout_gravity="center_vertical"
+            android:layout_width="24dp"
+            android:src="@drawable/ic_baseline_add_24"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLabelEl"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_vertical"
+            android:maxLength="30"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="@string/create_new_label" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/btnDoneEL"
+            android:layout_gravity="center_vertical|end"
+            android:layout_width="24dp"
+            android:src="@drawable/ic_twotone_done_24"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        tools:listitem="@layout/item_label_edit"
+        android:id="@+id/rvLabelsListEL"
+        android:layout_marginTop="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvNoLabelEL"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_labels"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center" />
+
+</FrameLayout>

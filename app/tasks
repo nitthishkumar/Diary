@@ -1,0 +1,119 @@
+LEFT ----------------------------
+delete 'n clone doesn't load at first exit from edit note activity warning for existing label in its edit text in edit label activity usage of extension fun/blogs click animation
+        VALIDATIONS
+block existing label
+
+scroll labels
+black for card view
+title to Label
+done for select label
+
+
+
+USE CASES FOR TO-DO list :
+
+
+@TODO :
+drag a todo item
+show
+    In a list of todos
+        add a todo item
+        edit the work in todo item
+        delete a todo item
+            mark them as done or not
+        search the todo ITEMs list
+
+
+    saving and retrieving todos list like note
+
+
+
+Later :
+ViewModel @last
+todo @last
+
+
+
+
+
+launch return vs deferred as
+share in keep
+settings toolbar
+Try android based extension functions
+have them as separate folder
+
+This tag and its children can be replaced by one <TextView/> and a compound drawable @edit text activity
+
+
+menu bud in edit note for empty note // done
+
+bottomSheet filled icons
+note content limit = 10_000
+select label title in nav view
+
+
+list view margin as 16dp
+
+duplicate label creation
+green tint in create note fab
+search in create label
+search view hint for icon in all labels
+check box tint in select labels
+duplicate and empty label on edit
+
+    time nd font in list view
+    date n time centered in list view
+    spacing between date n time list view
+    {
+
+To Add rv after create label in mark label
+
+                val params = CoordinatorLayout.LayoutParams(
+                    CoordinatorLayout.LayoutParams.WRAP_CONTENT,
+                    CoordinatorLayout.LayoutParams.WRAP_CONTENT
+                )
+                params.setMargins(left, 170, right, 0)
+                scrollLabels.layoutParams =
+    }
+
+search view text color in all notes search view//changes all text color with App.NoActionBar theme
+
+nvm :
+    created time in note
+    radio btn in setting card n list view select
+
+//todos
+eve
+landscape stability ORIENTATION CHECK / BLOCK ROTATION CHECK
+                remove fab on search
+
+
+share note title as New Note is wrong use Edit Note
+
+                edit label warning for existing label
+
+                error hide in cancel in edit create label
+
+                edit note toolbar title tool bar as edit note
+                edit note title tool bar as clone note for clone note
+
+                color position left in bottom sheet
+
+LEFT : --------------------------------------------------
+
+space increment bottom sheet
+
+label warnings in strings.xml
+                selected notes count in tool bar
+                cursor color
+                center confirm remove and make different title
+                TEXT AND CONST IN CONST FILE
+
+LATER : -------------------------------------------------
+create label W cursor// implemented as Search View
+                left and right drawable in text view
+                all completed in card view
+
+
+
+::java.lang.IllegalArgumentException: parameter must be a descendant of this view

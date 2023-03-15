@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:id="@+id/llRemoveToDos"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_playlist_add_check_24"
+            android:layout_width="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/remove_checkboxes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/remove_checkboxes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llGenerateToDos"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_playlist_add_check_24"
+            android:layout_width="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/add_checkbox" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/add_checkboxes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDelete"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_black_delete_24"
+            android:layout_width="22dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llClone"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/ic_baseline_file_copy_24"
+            android:layout_width="22dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/clone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llShare"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_gravity="center_vertical"
+            android:layout_width="22dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMarkLabel"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_label_filled_24"
+            android:layout_gravity="center_vertical"
+            android:layout_width="22dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/add_label" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        tools:listitem="@layout/item_color"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="2"
+        android:id="@+id/rvColorsOnFragmentV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

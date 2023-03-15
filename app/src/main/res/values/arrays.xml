@@ -1,0 +1,34 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="notes_view_entries">
+        <item>List View</item>
+        <item>Card View</item>
+    </string-array>
+
+    <string-array name="notes_view_values">
+        <item>LIST_VIEW</item>
+        <item>CARD_VIEW</item>
+    </string-array>
+
+
+    <string-array name="notes_sort_entries">
+        <item>Alphabetical</item>
+        <item>Last Edited</item>
+    </string-array>
+
+    <string-array name="notes_sort_values">
+    <item>ALPHABETICAL</item>
+    <item>LAST_EDITED_FIRST</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditNoteActivity">
+
+    <item
+        android:id="@+id/btnUndo2"
+        android:icon="@drawable/ic_baseline_undo_24"
+        android:title="@string/undo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnMore2"
+        android:title="@string/more"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always"/>
+
+</menu>

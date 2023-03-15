@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity" >
+
+    <item
+        android:id="@+id/btnSearchNF"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        tools:ignore="AlwaysShowAction" >
+    </item>
+
+    <item
+        android:id="@+id/btnDeleteMultipleNF"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_outline_delete_24"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnShareMultipleNF"
+        android:title="@string/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnCancelMultipleNF"
+        android:title="Cancel"
+        android:icon="@drawable/ic_baseline_close_24"
+        app:showAsAction="always"
+        android:visible="false" />
+
+</menu>

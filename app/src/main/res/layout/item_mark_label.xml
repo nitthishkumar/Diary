@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:id="@+id/clSelectLabel"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_baseline_label_24"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tvSelectLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/label_title"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="40dp" />
+
+    <CheckBox
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/cbSelectLabel"
+        android:layout_marginEnd="4dp"
+        android:layout_width="wrap_content"
+        android:buttonTint="@color/app_yellow"
+        android:layout_height="wrap_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

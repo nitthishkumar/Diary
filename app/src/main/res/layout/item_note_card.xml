@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvNoteCardItem"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="130dp"
+    android:theme="@style/Theme.MaterialComponents.DayNight"
+    app:cardCornerRadius="10dp">
+
+    <TextView
+        android:id="@+id/tvCardItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvCardItemContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="16dp"
+        android:maxHeight="230dp"
+        android:text="@string/content"
+        android:textColor="@color/mi_gray"
+        android:textSize="16sp" />
+
+
+</androidx.cardview.widget.CardView>

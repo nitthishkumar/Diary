@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_gravity="top|start"
+        android:id="@+id/cbToDo"
+        android:layout_marginEnd="4dp"
+        android:layout_width="wrap_content"
+        android:buttonTint="@color/black"
+        android:text=""
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/etToDo"
+        android:inputType="textMultiLine"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill" />
+
+    <ImageView
+        android:id="@+id/ivCancelToDo"
+        android:layout_gravity="top|end"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_close_black_24"
+        tools:ignore="ContentDescription" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

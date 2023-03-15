@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvLabelCardItem"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginStart="@dimen/text_margin"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/background_grey"
+    android:theme="@style/Theme.MaterialComponents.DayNight"
+    android:elevation="130dp"
+    app:cardCornerRadius="10dp">
+
+    <TextView
+        android:id="@+id/tvLabelItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</androidx.cardview.widget.CardView>
